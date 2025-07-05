@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+x=a+b*c
+y=(a+b)*c
+t=a*(b+c)
+d=a * b + c
+e=a + b + c
+z=a*b*c
+q=max(x,y,t,z,d,e)
+print(q)
