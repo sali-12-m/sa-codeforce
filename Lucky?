@@ -1,0 +1,12 @@
+t=int(input())
+for i in range(t):
+    a= input().strip()
+    f=a[:3]
+    s=a[3:]
+    sum_first = sum(int(i) for i in f)
+    sum_second = sum(int(i) for i in s)
+
+    if sum_first==sum_second:
+        print("yes")
+    else:
+        print("no")
