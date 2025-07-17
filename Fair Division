@@ -1,0 +1,14 @@
+t=int(input())
+s=0
+for i in range(t):
+    n=int(input())
+    a=list(map(int,input().split()))
+    c1=a.count(1)
+    c2=a.count(2)
+    if (c1+c2*2)%2!=0:
+        print("no")
+    else:
+        if ((c1 + c2 * 2)//2) % 2==1 and c1==0:
+            print("no")
+        else:
+            print("yes")
