@@ -1,0 +1,7 @@
+
+t= int(input())
+s=0
+n=list(map(int,input().split()))
+for i in range (t):
+    s+=n[i]
+print(abs(s))
