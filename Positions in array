@@ -1,0 +1,5 @@
+t= int(input())
+A=list(map(int,input().split()))
+for i in range (t):
+    if A[i]<=10:
+        print("A[" + str(i) + "] = " + str(A[i]))
