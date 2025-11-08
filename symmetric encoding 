@@ -1,0 +1,10 @@
+t = int(input())
+for i in range(t):
+    n = int(input())
+    b = input()
+    r = sorted(set(b))
+    s = ''
+    for j in b:
+        i = r.index(j)
+        s += r[-i-1]
+    print(s)
