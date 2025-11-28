@@ -1,0 +1,7 @@
+g,c,l = sorted(map(int,input().split()))
+ma=max(g,c,l)
+mi=min(g,c,l)
+if ma-mi>=10:
+   print("check again")  
+else:
+    print("final ",c)
