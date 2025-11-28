@@ -1,0 +1,10 @@
+t = int(input())
+for i in range(t):
+    n=int(input())
+    tot=n*(n+1)//2
+    p=1
+    pos=0
+    while p<=n:
+        pos+=p
+        p*=2
+    print(tot- 2*pos)
