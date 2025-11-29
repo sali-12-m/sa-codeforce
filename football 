@@ -1,0 +1,12 @@
+n=int(input())
+name=[]
+for i in range (n):
+    name.append(input().strip(). upper())
+sname=name[0]
+cname=name.count(sname)
+for I in name:
+    if name.count(I)>cname:
+        cname=name.count(I)
+        sname=I
+print(sname)        
+    
