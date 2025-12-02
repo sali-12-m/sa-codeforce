@@ -1,0 +1,8 @@
+n,m=map(int,input().split())
+p=(n+1)//2
+if p%m!=0:
+    p=((p//m)+1)*m
+if p>n:
+    print(-1)
+else:
+    print(p)        
