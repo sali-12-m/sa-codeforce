@@ -1,0 +1,8 @@
+x=int(input())
+li=[]
+while x>0:
+    r=x%2
+    li.append(r)
+    x=x//2
+print(li.count(1))   
+    
