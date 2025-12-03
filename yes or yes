@@ -1,5 +1,5 @@
-t=int(input())
-for i in range (t):
+a=int(input())
+for i in range (a):
     s=str(input())
     if s.upper()=="YES":
         print("yes")
