@@ -1,5 +1,5 @@
-t=int(input())
-for i in range(t):
+b=int(input())
+for i in range(b):
     a= input().strip()
     f=a[:3]
     s=a[3:]
