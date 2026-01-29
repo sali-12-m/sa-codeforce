@@ -1,0 +1,13 @@
+n,m=map(int,input().split())
+arr=[]
+if n%m==0:
+    for i in range(m):
+        arr.append(n//m)
+    print(*arr)
+else:
+    c=n//m
+    for x in range(m-(n%m)):
+        arr.append(c)
+    for y in range(n%m):
+        arr.append(c+1)
+    print(*arr)   
